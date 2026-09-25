@@ -117,7 +117,7 @@ const serviceData = {
       pack('img/minitkj.jfif', 'Mini TK Crazy juvenil', ['Recreador y logístico', 'Baile dirigido y reto TikTok', 'Luces, accesorios neón, nieve, papel, humo']),
       pack('img/fiestaf.jpeg', 'Fiesta Fusión', ['Recreador y logístico', 'Títeres, payasitos o magia y personaje animado', 'Pintucaritas, luces, nieve, papel']),
       pack('img/fiestafusion.jfif', 'Mega Party', ['2 recreadores y logístico', 'Títeres, payasitos, personaje, magia y pintucaritas', 'Luces, nieve, papel y sonido profesional']),
-      pack('img/showdeseries.PNG', 'Show de series', ['2 recreadores y logístico', 'Personajes de series, títeres, payasitos y magia cómica', 'Coreografías, luces, humo, nieve, papel y sonido profesional']),
+      pack('img/showdeseries.png', 'Show de series', ['2 recreadores y logístico', 'Personajes de series, títeres, payasitos y magia cómica', 'Coreografías, luces, humo, nieve, papel y sonido profesional']),
       pack('img/matchsencillo.jfif', 'Match sencillo', ['Recreación dirigida', 'Conos, aros, costales, vasos locos, cuerda, juegos y competencias']),
       pack('img/match.jfif', 'Match', ['Recreador y logístico', 'Pista enjabonada, bombazo, encostalados, escaleras, conos y demarcación']),
       pack('img/feriapueblo.jpeg', 'Feria de pueblo', ['Recreador y logístico', 'Rana, twister, minitejo, tiro al blanco, escalera gigante y pruebas múltiples']),
@@ -307,7 +307,7 @@ const serviceData = {
       pack('img/personajes/bicho.png', 'Labubu', ['Acompañamiento, show de fotos y animación temática']),
       pack('img/personajes/bluey-2.png', 'Bingo', ['Acompañamiento, show de fotos y animación temática']),
       pack('img/personajes/bluey.png', 'Bluey', ['Acompañamiento, show de fotos y animación temática']),
-      pack('img/personajes/bowser.png', 'Bowser (Mario)', ['Acompañamiento, show de fotos y animación temática']),
+      pack('img/personajes/Bowser.png', 'Bowser (Mario)', ['Acompañamiento, show de fotos y animación temática']),
       pack('img/personajes/capibara.png', 'Capibara', ['Acompañamiento, show de fotos y animación temática']),
 
       // Princesas y Cuentos
@@ -340,7 +340,7 @@ const serviceData = {
       pack('img/personajes/merlina.png', 'Merlina', ['Acompañamiento, show de fotos y animación temática']),
       pack('img/personajes/mickeymause.png', 'Mickey Mouse', ['Acompañamiento, show de fotos y animación temática']),
       pack('img/personajes/minny-mouse.png', 'Minny Mouse', ['Acompañamiento, show de fotos y animación temática']),
-      pack('img/personajes/muñecas-doll.png', 'Muñecas (Doll)', ['Acompañamiento, show de fotos y animación temática']),
+      pack('img/personajes/munecas-doll.png', 'Muñecas (Doll)', ['Acompañamiento, show de fotos y animación temática']),
 
 
       pack('img/personajes/Navidad.png', 'Navidad', ['Acompañamiento, show de fotos y animación temática']),
