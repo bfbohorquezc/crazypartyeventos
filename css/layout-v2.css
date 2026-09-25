@@ -1,0 +1,213 @@
+/* Estructura final: portada, servicios, galerías por servicio y cierre. */
+.inflables,
+.events {
+    display: none
+}
+
+.hero {
+    min-height: 575px
+}
+
+.hero:after {
+    content: '';
+    position: absolute;
+    z-index: -1;
+    bottom: -1px;
+    left: -3%;
+    width: 106%;
+    height: 74px;
+    background: #fff;
+    border-radius: 50% 50% 0 0/44% 44% 0 0
+}
+
+.hero-content {
+    padding-bottom: 90px
+}
+
+.hero-logo {
+    width: clamp(145px, 17vw, 210px);
+    margin-bottom: 4px
+}
+
+.hero h1 {
+    font-size: clamp(2.35rem, 4.2vw, 4.35rem);
+    max-width: 475px
+}
+
+.hero-copy {
+    font-size: 1rem;
+    max-width: 430px
+}
+
+.hero-image {
+    background-image: linear-gradient(90deg, rgba(3, 23, 59, .78), rgba(3, 23, 59, .17)), url('https://images.unsplash.com/photo-1563265391-0c79d6a4c944?auto=format&fit=crop&w=1900&q=85')
+}
+
+.scroll-cue {
+    display: none
+}
+
+.services {
+    padding-top: 44px
+}
+
+.services .section-heading {
+    margin-bottom: 38px
+}
+
+.services .section-heading h2 {
+    font-size: clamp(2.7rem, 4.6vw, 4.2rem)
+}
+
+.service-card {
+    cursor: pointer
+}
+
+.service-card:focus-visible {
+    outline: 4px solid var(--yellow);
+    outline-offset: 4px
+}
+
+.service-galleries {
+    padding: 100px 0;
+    background: #f7fbff
+}
+
+.service-details {
+    display: grid;
+    gap: 35px
+}
+
+.service-detail {
+    scroll-margin-top: 95px;
+    display: grid;
+    grid-template-columns: .9fr 1.4fr;
+    gap: 30px;
+    align-items: center;
+    padding: 35px;
+    border-radius: 25px;
+    background: #fff;
+    box-shadow: 0 12px 30px rgba(20, 33, 61, .1)
+}
+
+.detail-copy h3 {
+    font-family: 'Baloo 2', sans-serif;
+    font-size: clamp(2rem, 4vw, 3.2rem);
+    line-height: .94;
+    margin: 0;
+    color: var(--pink)
+}
+
+.detail-copy>p:last-of-type {
+    line-height: 1.6
+}
+
+.detail-copy a {
+    display: inline-block;
+    margin-top: 7px;
+    color: var(--pink);
+    font-weight: 900
+}
+
+.detail-photos {
+    display: grid;
+    grid-template-columns: 1.3fr 1fr;
+    grid-template-rows: 120px 120px;
+    gap: 10px
+}
+
+.detail-photos div {
+    border-radius: 14px;
+    background-position: center;
+    background-size: cover
+}
+
+.detail-photos div:first-child {
+    grid-row: span 2
+}
+
+.service-detail-1 .detail-photos div {
+    background-image: url('https://images.unsplash.com/photo-1513159446162-54eb8bdaa79b?auto=format&fit=crop&w=900&q=80')
+}
+
+.service-detail-2 .detail-photos div {
+    background-image: url('https://images.unsplash.com/photo-1472162072942-cd5147eb3902?auto=format&fit=crop&w=900&q=80')
+}
+
+.service-detail-3 .detail-photos div {
+    background-image: url('https://images.unsplash.com/photo-1464366400600-7168b8af9bc3?auto=format&fit=crop&w=900&q=80')
+}
+
+.service-detail-4 .detail-photos div {
+    background-image: url('https://images.unsplash.com/photo-1505236858219-8359eb29e329?auto=format&fit=crop&w=900&q=80')
+}
+
+.service-detail-5 .detail-photos div {
+    background-image: url('https://images.unsplash.com/photo-1530103862676-de8c9debad1d?auto=format&fit=crop&w=900&q=80')
+}
+
+.service-detail-6 .detail-photos div {
+    background-image: url('https://images.unsplash.com/photo-1531058020387-3be344556be6?auto=format&fit=crop&w=900&q=80')
+}
+
+.service-detail-7 .detail-photos div {
+    background-image: url('https://images.unsplash.com/photo-1478146896981-b80fe463b330?auto=format&fit=crop&w=900&q=80')
+}
+
+.service-detail-8 .detail-photos div {
+    background-image: url('https://images.unsplash.com/photo-1516280440614-37939bbacd81?auto=format&fit=crop&w=900&q=80')
+}
+
+.service-detail-9 .detail-photos div {
+    background-image: url('https://images.unsplash.com/photo-1547592180-85f173990554?auto=format&fit=crop&w=900&q=80')
+}
+
+.service-detail:nth-child(even) .detail-copy {
+    order: 2
+}
+
+.service-detail:nth-child(even) .detail-copy h3,
+.service-detail:nth-child(even) .detail-copy a {
+    color: #008fd6
+}
+
+.cta {
+    margin-top: 0;
+    padding: 70px 0
+}
+
+.cta h2 {
+    font-size: clamp(2.2rem, 4.5vw, 3.9rem)
+}
+
+@media(max-width:650px) {
+    .hero {
+        min-height: 590px
+    }
+
+    .hero:after {
+        height: 45px
+    }
+
+    .service-galleries {
+        padding: 70px 0
+    }
+
+    .service-detail {
+        grid-template-columns: 1fr;
+        padding: 23px;
+        gap: 22px
+    }
+
+    .service-detail:nth-child(even) .detail-copy {
+        order: initial
+    }
+
+    .detail-photos {
+        grid-template-rows: 100px 100px
+    }
+
+    .cta {
+        padding: 65px 0
+    }
+}

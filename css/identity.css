@@ -1,0 +1,281 @@
+/* El logo conserva sus letras originales; Baloo 2 acompaña su estilo redondeado. */
+.brand {
+    width: 118px;
+    transform: none
+}
+
+.brand img {
+    display: block;
+    width: 100%;
+    height: 62px;
+    object-fit: contain
+}
+
+.hero-logo {
+    display: block;
+    width: clamp(155px, 19vw, 240px);
+    height: auto;
+    margin: 0 0 8px;
+    filter: drop-shadow(0 8px 10px rgba(0, 0, 0, .28))
+}
+
+.hero h1 {
+    font-size: clamp(2.8rem, 5.2vw, 5.2rem);
+    max-width: 600px
+}
+
+.hero h1 span {
+    display: block;
+    color: var(--yellow)
+}
+
+.hero-image {
+    background-image: linear-gradient(110deg, rgba(15, 29, 63, .25), rgba(242, 34, 131, .08)), url('https://images.unsplash.com/photo-1563265391-0c79d6a4c944?auto=format&fit=crop&w=1900&q=85')
+}
+
+.hero-content {
+    padding-top: 48px
+}
+
+.services {
+    background: #fff;
+    position: relative
+}
+
+.services:before,
+.services:after {
+    content: '';
+    position: absolute;
+    width: 130px;
+    height: 130px;
+    background: var(--pink);
+    border-radius: 70% 20% 70% 30%;
+    opacity: .9
+}
+
+.services:before {
+    left: -50px;
+    top: 80px;
+    background: var(--cyan)
+}
+
+.services:after {
+    right: -55px;
+    top: 120px;
+    background: var(--yellow)
+}
+
+.services .container {
+    position: relative;
+    z-index: 1
+}
+
+.service-grid {
+    grid-template-columns: repeat(3, 1fr);
+    gap: 22px
+}
+
+.service-card {
+    padding: 0 17px 20px;
+    overflow: visible;
+    position: relative;
+    border: 0;
+    min-height: 260px;
+    background: linear-gradient(135deg, #fff 0%, #f7f4ff 100%)
+}
+
+.service-card:hover {
+    transform: translateY(-6px);
+    border: 0
+}
+
+.service-photo {
+    height: 115px;
+    margin: 0 -17px 17px;
+    border-radius: 15px 15px 10px 10px;
+    background-size: cover;
+    background-position: center
+}
+
+.service-card>span {
+    position: absolute;
+    top: 88px;
+    left: 18px;
+    width: 48px;
+    height: 48px;
+    display: grid;
+    place-items: center;
+    margin: 0;
+    border-radius: 50%;
+    font-size: 1.35rem;
+    background: var(--pink);
+    color: #fff;
+    border: 3px solid #fff;
+    box-shadow: 0 4px 9px rgba(20, 33, 61, .17)
+}
+
+.service-card h3 {
+    margin-top: 26px;
+    color: var(--pink);
+    font-size: 1.26rem
+}
+
+.service-card p {
+    padding-right: 18px;
+    font-size: .86rem
+}
+
+.service-card b {
+    position: absolute;
+    right: 18px;
+    bottom: 18px;
+    color: var(--pink);
+    font-size: 1.3rem
+}
+
+.service-card:nth-child(2) h3,
+.service-card:nth-child(2) b {
+    color: #643edb
+}
+
+.service-card:nth-child(2)>span {
+    background: #643edb
+}
+
+.service-card:nth-child(3) h3,
+.service-card:nth-child(3) b {
+    color: #f69f00
+}
+
+.service-card:nth-child(3)>span {
+    background: #f9b600
+}
+
+.service-card:nth-child(4) h3,
+.service-card:nth-child(4) b {
+    color: #008fd6
+}
+
+.service-card:nth-child(4)>span {
+    background: #008fd6
+}
+
+.service-card:nth-child(5) h3,
+.service-card:nth-child(5) b {
+    color: #ed2581
+}
+
+.service-card:nth-child(5)>span {
+    background: #ed2581
+}
+
+.service-card:nth-child(6) h3,
+.service-card:nth-child(6) b {
+    color: #00a957
+}
+
+.service-card:nth-child(6)>span {
+    background: #00a957
+}
+
+.service-card:nth-child(7) h3,
+.service-card:nth-child(7) b {
+    color: #6a45d9
+}
+
+.service-card:nth-child(7)>span {
+    background: #6a45d9
+}
+
+.service-card:nth-child(8) h3,
+.service-card:nth-child(8) b {
+    color: #008fd6
+}
+
+.service-card:nth-child(8)>span {
+    background: #008fd6
+}
+
+.service-card:nth-child(9) h3,
+.service-card:nth-child(9) b {
+    color: #ec7311
+}
+
+.service-card:nth-child(9)>span {
+    background: #ec7311
+}
+
+.photo-1 {
+  background-image: url('../img/inflables.jpeg');
+}
+
+.photo-2 {
+  background-image: url('../img/recreacion.jpg');
+}
+
+
+.photo-3 {
+  background-image: url('../img/decoracion.jpeg');
+}
+
+.photo-4 {
+    background-image: url('../img/recinflable.png')
+}
+
+.photo-5 {
+    background-image: url('../img/bbshower.jpeg')
+}
+
+.photo-6 {
+    background-image: url('../img/todoincluido.png')
+}
+
+.photo-7 {
+    background-image: url('../img/decoinflable.png')
+}
+
+.photo-8 {
+    background-image: url('../img/sonidoo.jpeg')
+}
+
+.photo-9 {
+    background-image: url('../img/Menu.jpeg')
+}
+.photo-10 {
+    background-image: url('../img/pintura.png')
+}
+.photo-11 {
+    background-image: url('../img/imagenpersonajes.jpeg')
+}
+
+@media(max-width:850px) {
+    .service-grid {
+        grid-template-columns: repeat(2, 1fr)
+    }
+}
+
+@media(max-width:650px) {
+    .brand {
+        width: 92px
+    }
+
+    .brand img {
+        height: 51px
+    }
+
+    .hero-logo {
+        width: 175px
+    }
+
+    .service-grid {
+        grid-template-columns: 1fr
+    }
+
+    .service-card {
+        min-height: 245px
+    }
+
+    .service-photo {
+        height: 130px
+    }
+}

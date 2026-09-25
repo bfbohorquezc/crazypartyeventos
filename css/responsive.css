@@ -1,0 +1,475 @@
+/* Ajustes por tamaño de pantalla: TV/monitor, portátil, tableta y móvil. */
+:root {
+    --site-padding: clamp(20px, 4vw, 76px)
+}
+
+
+
+.container {
+    width: min(1240px, calc(100% - (var(--site-padding) * 2)))
+    }
+
+    .hero-image {
+        background-position:center
+    }
+
+    .site-header {
+        padding-inline:var(--site-padding)
+    }
+
+    /* Televisores y monitores grandes. */
+    @media(min-width:1600px) {
+        .container {
+            width:min(1450px, calc(100% - 180px))
+        }
+
+        .site-header {
+            min-height:94px
+        }
+
+        .brand {
+            width:140px
+        }
+
+        .brand img {
+            height:74px
+        }
+
+        .hero {
+            min-height:710px
+        }
+
+        .hero-content {
+            padding-block:58px 125px
+        }
+
+        .hero h1 {
+            max-width:620px
+        }
+
+        .hero-copy {
+            font-size:1.18rem; max-width:510px
+        }
+
+        .hero-control {
+            width:58px; height:58px
+        }
+
+        .hero-wave {
+            height:116px
+        }
+
+        .hero-dots {
+            bottom:77px
+        }
+
+        .services {
+            padding-top:64px
+        }
+
+        .service-grid {
+            gap:26px
+        }
+
+        .service-photo {
+            height:145px
+        }
+
+        .service-card {
+            min-height:290px
+        }
+
+        .service-detail {
+            padding:48px
+        }
+
+        .detail-photos {
+            grid-template-rows:155px 155px
+        }
+    }
+
+    /* Portátiles y monitores medianos. */
+    @media(min-width:1100px) and (max-width:1599px) {
+        .hero {
+            min-height:620px
+        }
+
+        .hero-content {
+            padding-bottom:100px
+        }
+
+        .service-grid {
+            gap:20px
+        }
+
+        .service-photo {
+            height:125px
+        }
+    }
+
+    /* Tabletas horizontales y portátiles pequeños. */
+    @media(max-width:1099px) {
+        .site-header {
+            min-height:72px
+        }
+
+        .main-nav {
+            gap:18px; font-size:.92rem
+        }
+
+        .nav-whatsapp {
+            padding:10px 13px
+        }
+
+        .hero {
+            min-height:570px
+        }
+
+        .hero-content {
+            padding-bottom:90px
+        }
+
+        .hero h1 {
+            max-width:440px
+        }
+
+        .service-grid {
+            gap:17px
+        }
+
+        .service-card {
+            min-height:250px
+        }
+
+        .service-photo {
+            height:110px
+        }
+
+        .service-detail {
+            grid-template-columns:1fr 1.15fr; padding:28px; gap:24px
+        }
+
+        .detail-photos {
+            grid-template-rows:105px 105px
+        }
+    }
+
+    /* Tabletas verticales y teléfonos grandes: navegación plegable y dos tarjetas. */
+    @media(max-width:900px) {
+        .site-header {
+            padding-inline:24px
+        }
+
+        .menu-toggle {
+            display:block
+        }
+
+        .main-nav {
+            position:absolute; display:none; top:100%; left:0; right:0; padding:18px 24px 24px; background:#fff; flex-direction:column; align-items:stretch; gap:14px; box-shadow:0 12px 20px rgba(20, 33, 61, .12)
+        }
+
+        .main-nav.open {
+            display:flex
+        }
+
+        .nav-whatsapp {
+            text-align:center
+        }
+
+        .hero {
+            min-height:550px
+        }
+
+        .hero-content {
+            padding-top:35px
+        }
+
+        .hero-logo {
+            width:165px
+        }
+
+        .hero h1 {
+            font-size:clamp(2.6rem, 6.8vw, 4.2rem)
+        }
+
+        .hero-copy {
+            max-width:420px
+        }
+
+        .hero-control {
+            width:42px; height:42px
+        }
+
+        .hero-control-prev {
+            left:14px
+        }
+
+        .hero-control-next {
+            right:14px
+        }
+
+        .service-grid {
+            grid-template-columns:repeat(2, minmax(0, 1fr))
+        }
+
+        .service-galleries {
+            padding-block:75px
+        }
+
+        .service-detail {
+            grid-template-columns:1fr
+        }
+
+        .service-detail:nth-child(even) .detail-copy {
+            order:initial
+        }
+
+        .detail-copy {
+            max-width:640px
+        }
+
+        .detail-photos {
+            grid-template-rows:145px 145px
+        }
+
+        .floating-whatsapp {
+            width:54px; height:54px
+        }
+    }
+
+    /* Móviles. */
+    @media(max-width:600px) {
+        .container {
+            width:min(100% - 32px, 540px)
+        }
+
+        .site-header {
+            padding-inline:16px; min-height:66px
+        }
+
+        .brand {
+            width:86px
+        }
+
+        .brand img {
+            height:48px
+        }
+
+        .main-nav {
+            padding-inline:18px
+        }
+
+        .hero {
+            min-height:610px
+        }
+
+        .hero-image {
+            background-position:62% center
+        }
+
+        .hero-overlay {
+            background:linear-gradient(90deg, rgba(3, 23, 59, .84), rgba(3, 23, 59, .42))
+        }
+
+        .hero-content {
+            padding-top:31px; padding-bottom:85px
+        }
+
+        .hero-logo {
+            width:150px
+        }
+
+        .hero h1 {
+            font-size:clamp(2.6rem, 12vw, 3.6rem); letter-spacing:-1.5px; max-width:340px
+        }
+
+        .hero-copy {
+            font-size:.95rem; max-width:315px; margin-block:16px 24px
+        }
+
+        .button {
+            padding:13px 17px; font-size:.82rem
+        }
+
+        .button-whatsapp {
+            font-size:.9rem
+        }
+
+        .hero-control {
+            top:46%; width:34px; height:34px; font-size:2rem; border-width:1px
+        }
+
+        .hero-control-prev {
+            left:8px
+        }
+
+        .hero-control-next {
+            right:8px
+        }
+
+        .hero-dots {
+            bottom:35px
+        }
+
+        .hero-wave {
+            height:57px
+        }
+
+        .section {
+            padding-block:65px
+        }
+
+        .services {
+            padding-top:34px
+        }
+
+        .section-heading {
+            margin-bottom:28px
+        }
+
+        .services .section-heading h2 {
+            font-size:clamp(2.45rem, 11vw, 3.35rem)
+        }
+
+        .service-grid {
+            grid-template-columns:1fr; gap:17px
+        }
+
+        .service-card {
+            min-height:238px
+        }
+
+        .service-photo {
+            height:125px
+        }
+
+        .service-galleries {
+            padding-block:60px
+        }
+
+        .service-detail {
+            padding:22px; border-radius:18px
+        }
+
+        .detail-copy h3 {
+            font-size:2.25rem
+        }
+
+        .detail-photos {
+            grid-template-rows:90px 90px; gap:7px
+        }
+
+        .cta {
+            padding-block:60px
+        }
+
+        .cta h2 {
+            font-size:clamp(2.3rem, 11vw, 3.2rem)
+        }
+
+        .floating-whatsapp {
+            right:14px; bottom:14px; width:50px; height:50px; font-size:1.45rem
+        }
+    }
+
+    /* Teléfonos pequeños. */
+    @media(max-width:380px) {
+        .hero {
+            min-height:570px
+        }
+
+        .hero-logo {
+            width:128px
+        }
+
+        .hero h1 {
+            font-size:2.35rem
+        }
+
+        .hero-copy {
+            font-size:.88rem; max-width:285px
+        }
+
+        .button-whatsapp {
+            font-size:.8rem; padding:11px 13px
+        }
+
+        .whatsapp-icon {
+            width:19px; height:19px; font-size:13px
+        }
+
+        .hero-control {
+            display:none
+        }
+
+        .hero-dots {
+            bottom:28px
+        }
+
+        .service-photo {
+            height:112px
+        }
+
+        .service-card {
+            min-height:226px
+        }
+
+        .detail-photos {
+            grid-template-rows:78px 78px
+        }
+
+        .site-footer {
+            padding:18px 12px
+        }
+    }
+
+    /* Pantallas bajas o móvil horizontal: no desperdicia altura en la portada. */
+    @media(max-height:560px) and (orientation:landscape) {
+        .site-header {
+            min-height:58px
+        }
+
+        .brand {
+            width:76px
+        }
+
+        .brand img {
+            height:42px
+        }
+
+        .hero {
+            min-height:470px
+        }
+
+        .hero-content {
+            padding-block:22px 58px
+        }
+
+        .hero-logo {
+            width:110px
+        }
+
+        .hero h1 {
+            font-size:2.3rem
+        }
+
+        .hero-copy {
+            margin-block:10px 15px; font-size:.88rem
+        }
+
+        .hero-wave {
+            height:42px
+        }
+
+        .hero-dots {
+            bottom:24px
+        }
+
+        .hero-control {
+            top:48%; width:34px; height:34px
+        }
+
+        .service-grid {
+            grid-template-columns:repeat(3, 1fr)
+        }
+    }

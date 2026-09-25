@@ -1,0 +1,59 @@
+.hero-image {
+    transition: none
+}
+
+.hero-image-next {
+    z-index: -2;
+    opacity: 0;
+    transition: opacity .7s ease-in-out
+}
+
+.hero-image-next.is-visible {
+    opacity: 1
+}
+.hero-overlay {
+    z-index: -1
+}
+
+.confetti {
+    z-index: 0
+}
+
+.hero-content,
+.hero-control,
+.hero-dots {
+    z-index: 2
+}
+
+.button-whatsapp {
+    background: #09c86d;
+    color: #fff;
+    border: 2px solid #fff;
+    box-shadow: 0 6px 0 rgba(0, 79, 45, .28);
+    text-transform: none;
+    letter-spacing: 0;
+    font-size: 1rem
+}
+
+.button-whatsapp:hover {
+    background: #05b861;
+    color: #fff
+}
+
+.whatsapp-icon {
+    display: grid;
+    place-items: center;
+    width: 22px;
+    height: 22px;
+    flex: none;
+    border: 2px solid #fff;
+    border-radius: 50%;
+    font-size: 16px;
+    font-family: Arial, sans-serif;
+    line-height: 1;
+    color: #fff
+}
+
+.cta .button-whatsapp {
+    border-color: rgba(255, 255, 255, .7)
+}
