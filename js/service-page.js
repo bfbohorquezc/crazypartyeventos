@@ -370,7 +370,7 @@ items: [
 
   'recreacion-inflable': {
     title: 'Recreación e inflable',
-    description: 'Combos de decoración y acompañamiento recreativo de cuatro horas para una celebración completa.',
+    description: 'Combos de inflables y acompañamiento recreativo de cuatro horas para una celebración completa.',
     videos: [
       'videos/vidinf.mp4'
     ],
