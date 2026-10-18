@@ -109,37 +109,167 @@ const serviceData = {
     videos: [
       'videos/videorec.mp4'
     ],
-    items: [
-      pack('img/recreacion.jpg', 'Paquete sencillo', ['Recreación dirigida', 'Show central: títeres, payasos o magia semiprofesional', 'Pintucaritas y globoflexia (máx. 20)']),
-      pack('img/recconvencional.jpeg', 'Paquete convencional', ['Recreación dirigida', 'Títeres, payasitos y magia semiprofesional', 'Pintucaritas y globoflexia (máx. 20)']),
-      pack('img/recchikyrumba.jpeg', 'Chiky rumba', ['Recreación dirigida', 'Baile hora loca sin accesorios', 'Pintucaritas, 2 luces audiorrítmicas y globoflexia', 'Cliente facilita sonido']),
-      pack('img/chikytkc.jpeg', 'Chiky TK Crazy', ['Recreador y logístico', 'Show de títeres, payasos o magia', 'Pintucaritas, luces, pitos, nieve, papel']),
-      pack('img/minitkj.jfif', 'Mini TK Crazy juvenil', ['Recreador y logístico', 'Baile dirigido y reto TikTok', 'Luces, accesorios neón, nieve, papel, humo']),
-      pack('img/fiestaf.jpeg', 'Fiesta Fusión', ['Recreador y logístico', 'Títeres, payasitos o magia y personaje animado', 'Pintucaritas, luces, nieve, papel']),
-      pack('img/fiestafusion.jfif', 'Mega Party', ['2 recreadores y logístico', 'Títeres, payasitos, personaje, magia y pintucaritas', 'Luces, nieve, papel y sonido profesional']),
-      pack('img/showdeseries.png', 'Show de series', ['2 recreadores y logístico', 'Personajes de series, títeres, payasitos y magia cómica', 'Coreografías, luces, humo, nieve, papel y sonido profesional']),
-      pack('img/matchsencillo.jfif', 'Match sencillo', ['Recreación dirigida', 'Conos, aros, costales, vasos locos, cuerda, juegos y competencias']),
-      pack('img/match.jfif', 'Match', ['Recreador y logístico', 'Pista enjabonada, bombazo, encostalados, escaleras, conos y demarcación']),
-      pack('img/feriapueblo.jpeg', 'Feria de pueblo', ['Recreador y logístico', 'Rana, twister, minitejo, tiro al blanco, escalera gigante y pruebas múltiples']),
-      pack('img/matchcrazy.jfif', 'Match Crazy', ['Recreador y logístico', 'Tiro al frisby, aros, futbolito, Jenga gigante, golfito, escalera y demarcación']),
-      pack('img/matchempresarial.jpg', 'Match empresarial', ['Pruebas múltiples, cascos, costales, twister, Jenga y cultura general', 'Sonido profesional, pista enjabonada y juegos tradicionales']),
-      pack('img/servicios/matchinflable.jfif', 'Match inflable', ['Logístico', '5 juegos inflables: fútbol, canasta, tiro al blanco, bolos y tejo'])
-    ]
-  },
-
-  'decoracion-cumpleanos': {
-    title: 'Decoración de cumpleaños',
-    description: 'Montajes temáticos con decoración personalizada. Todos incluyen decorador de 2 a 3 horas de montaje.',
-    videos: [
-      'videos/decoracion1.mp4',
-      'videos/decoracion2.mp4'
-    ],
-    items: [
-      pack('img/decoracion.jpeg', 'Paquete sencillo', ['Arco orgánico y 2 torres de globos', 'Cortinas metalizadas, mantel y número metalizado', 'Menaje para 30, piñata cuadrada y relleno mixto']),
-      pack('img/servicios/deco_crazy.jpg', 'Decoración Crazy', ['Arco, torres, fondo redondo con backing y 3 cilindros', 'Número luminoso, nombre en icopor, alfombra y menaje para 30', 'Piñata temática y relleno seleccionado o dulces']),
-      pack('img/servicios/deco_jumbo.jpg', 'Decoración Jumbo', ['Arco completo, torres y 2 paneles temáticos', 'Cilindros, número luminoso, Happy Birthday LED y aplique', 'Alfombra, menaje, piñata y rellenos']),
-      pack('img/servicios/deco_golden.jpg', 'Decoración Golden', ['Arco completo, torres y 3 paneles temáticos', 'Cilindros, número luminoso, nombre, LED y escalera de sorpresas', 'Alfombra, menaje, piñata y rellenos'])
-    ]
+items: [
+  pack('img/recreacion.jpg', 'Paquete sencillo', [
+    'Recreación dirigida (1 persona)',
+    '1 show central (títeres, payasos o magia semiprofesional)',
+    'Taller de pintucaritas',
+    'Globoflexia máx. 20 unidades'
+  ]),
+  pack('img/recconvencional.jpeg', 'Paquete convencional', [
+    'Recreación dirigida (1 persona)',
+    'Show de títeres',
+    'Show de payasitos',
+    'Magia semiprofesional',
+    'Taller de pintucaritas',
+    'Globoflexia máx. 20 unidades'
+  ]),
+  pack('img/recchikyrumba.jpeg', 'Chiky rumba', [
+    'Recreación dirigida (1 persona)',
+    '1 show central (baile hora loca - sin accesorios)',
+    'Taller de pintucaritas',
+    '2 luces audiorrítmicas',
+    'Globoflexia máx. 20 unidades',
+    'Cliente facilita el equipo de sonido'
+  ]),
+  pack('img/chikytkc.jpeg', 'Chiky TK Crazy', [
+    'Recreación dirigida (1 persona)',
+    'Logístico (1 persona)',
+    '1 show central (títeres, payasos o magia semiprofesional)',
+    'Taller de pintucaritas',
+    '2 luces audiorrítmicas',
+    '30 pitos espanta-suegra',
+    'Lluvia de nieve',
+    'Explosión de papel',
+    'Cliente facilita el equipo de sonido'
+  ]),
+  pack('img/minitkj.jfif', 'Mini TK Crazy juvenil', [
+    'Recreación dirigida (1 persona)',
+    'Logístico (1 persona)',
+    '1 show central de baile (45 minutos de baile dirigido)',
+    'Reto Tik Tok',
+    '2 luces audiorrítmicas',
+    '30 pitos espanta-suegra',
+    '30 manillas de neón',
+    '30 gafas de neón',
+    'Lluvia de nieve',
+    'Explosión de papel',
+    'Cámara de humo',
+    'Cliente facilita el equipo de sonido'
+  ]),
+  pack('img/fiestaf.jpeg', 'Fiesta Fusión', [
+    'Recreación dirigida (1 persona)',
+    'Logístico (1 persona)',
+    'Show de títeres',
+    'Show de payasitos o magia semiprofesional',
+    'Personaje animado',
+    'Taller de pintucaritas',
+    '2 luces audiorrítmicas',
+    '30 pitos espanta-suegra',
+    'Lluvia de nieve',
+    'Explosión de papel',
+    'Cliente facilita el equipo de sonido'
+  ]),
+  pack('img/fiestafusion.jfif', 'Mega Party', [
+    'Recreación dirigida (2 personas)',
+    'Logístico (1 persona)',
+    'Show de títeres',
+    'Show de payasitos',
+    'Personaje animado',
+    'Magia semiprofesional',
+    'Taller de pintucaritas',
+    '4 luces audiorrítmicas',
+    '30 pitos espanta-suegra',
+    'Lluvia de nieve',
+    'Explosión de papel',
+    'Sonido profesional'
+  ]),
+  pack('img/showdeseries.png', 'Show de series', [
+    'Recreación dirigida (2 personas)',
+    'Logístico (1 persona)',
+    'Show de títeres',
+    'Show de payasitos',
+    'Personajes de las series',
+    'Taller de pintucaritas',
+    'Show de magia cómica',
+    'Coreografías de las series',
+    '4 luces audiorrítmicas',
+    '1 cámara de humo',
+    'Lluvia de nieve',
+    'Explosión de papel',
+    'Sonido profesional'
+  ]),
+  pack('img/matchsencillo.jfif', 'Match sencillo', [
+    'Recreación dirigida (1 persona)',
+    'Conos',
+    'Aros',
+    'Costales',
+    'Vasos locos',
+    'Salta la cuerda',
+    'Juegos, competencias y agilidad'
+  ]),
+  pack('img/match.jfif', 'Match', [
+    'Recreación dirigida (1 persona)',
+    'Logística (1 persona)',
+    'Pista enjabonada',
+    'Bombazo',
+    'Encostalados',
+    'Escaleras',
+    'Obstáculo de conos',
+    'Demarcación'
+  ]),
+  pack('img/feriapueblo.jpeg', 'Feria de pueblo', [
+    'Recreación dirigida (1 persona)',
+    'Logístico (1 persona)',
+    'Rana',
+    'Twister',
+    'Minitejo',
+    'Demarcación',
+    'Tiro al blanco',
+    'Escalera gigante',
+    'Pruebas múltiples'
+  ]),
+  pack('img/matchcrazy.jfif', 'Match Crazy', [
+    'Recreación dirigida (1 persona)',
+    'Logístico (1 persona)',
+    'Tiro al blanco frisby',
+    'Enchola aros',
+    'Futbolito',
+    'Jenga gigante',
+    'Golfito',
+    'Demarcación',
+    'Escalera'
+  ]),
+  pack('img/matchempresarial.jpg', 'Match empresarial', [
+    'Recreación dirigida',
+    'Pruebas múltiples',
+    'Juego de cascos',
+    'Costales',
+    'Escalera gigante',
+    'Twister',
+    'Maraña',
+    'Obstáculos conos',
+    'Pimpones',
+    'Jenga gigante',
+    'Juego de cultura general',
+    'Zapato sobre mesa',
+    'Captura la bandera',
+    'Demarcaciones',
+    'Sonido profesional (2 cabinas BTA, trípodes, mezclador, PC, DJ)',
+    'Pista enjabonada',
+    'Enchola aros',
+    'Rana',
+    'Gusano de aros',
+    'Tiro al frisby',
+    'Tiro al blanco',
+    'Tejo'
+  ]),
+  pack('img/servicios/matchinflable.jfif', 'Match inflable', [
+    'Logística (1 persona)',
+    '5 juegos inflables (cancha de fútbol, cancha de canasta, tiro al blanco, bolos, tejo)',
+    'Escalera'
+  ])
+]
   },
 
   'decoracion-baby-revelacion': {
@@ -156,31 +286,222 @@ const serviceData = {
     ]
   },
 
-  'recreacion-decoracion': {
-    title: 'Decoración y recreación',
-    description: 'Combos con montaje decorativo y cuatro horas de acompañamiento recreativo.',
-    videos: [
-      'videos/videodecoracion.mp4'
-    ],
-    items: [
-      pack('img/combocrazy1.jpeg', 'Combo Crazy #1', ['Decoración sencilla: arco, torres, cortinas, mantel, número, menaje, piñata y relleno', 'Recreación con personaje, títeres, payasitos, magia, pintucaritas y globoflexia']),
-      pack('img/combocrazy2.jpeg', 'Combo Crazy #2', ['Decoración con fondo redondo, backing, cilindros, número luminoso y menaje', 'Recreación, personaje, shows, luces, nieve, papel y música USB']),
-      pack('img/combocrazy3.jpeg', 'Combo Crazy #3', ['Decoración con paneles, cilindros, número luminoso, LED, aplique y menaje', 'Recreación, personaje, shows, luces, nieve, papel, música y cabina de 12 pulgadas'])
-    ]
-  },
+'recreacion-decoracion': {
+  title: 'Decoración y recreación',
+  description: 'Combos con montaje decorativo y cuatro horas de acompañamiento recreativo.',
+  videos: [
+    'videos/videodecoracion.mp4'
+  ],
+  items: [
+    pack('img/combocrazy1.jpeg', 'Combo Crazy #1', [
+      '--- DECORACIÓN ---',
+      'Arco orgánico en globos (tonos a elección)',
+      '2 torres de globos de 1m',
+      '2 cortinas metalizadas',
+      'Mantel plástico y número metalizado',
+      'Menaje x 30 und (vasos, bandejas, cubiertos)',
+      'Piñata tipo cuadrada con relleno mixto',
+      '--- RECREACIÓN ---',
+      'Recreación dirigida (1 persona)',  
+      'Logístico (1 persona)',
+      'Personaje animado',
+      'Show de títeres',
+      'Show de payasitos',
+      'Magia semiprofesional',
+      'Taller de pintucaritas',
+      'Globoflexia (máx. 20 unidades)',
+      '--- TIEMPOS DE SERVICIO ---',
+      'Decorador: 2 a 3 horas de montaje',
+      'Recreación: 4 horas de acompañamiento'
+    ]),
+    pack('img/combocrazy2.jpeg', 'Combo Crazy #2', [
+      '--- DECORACIÓN ---',
+      'Arco orgánico en globos (tonos a elección)',
+      '2 torres de globos de 1m',
+      'Fondo redondo temático con backing (alquiler)',
+      '3 cilindros temáticos (alquiler)',
+      'Número con luces de 1m (alquiler)',
+      'Nombre en icopor del festejado y alfombra (alquiler)',
+      'Menaje x 30 und (vasos, bandejas, cubiertos)',
+      'Piñata tipo (fuente, estrella o vestido) con relleno/dulces',
+      '--- RECREACIÓN ---',
+      'Recreación dirigida (1 persona)',
+      'Logístico (1 persona)',
+      'Show de títeres',
+      'Show de payasitos o magia semiprofesional',
+      'Personaje animado',
+      'Taller de pintucaritas',
+      '2 luces audiorrítmicas y 30 pitos espanta-suegra',
+      'Lluvia de nieve y explosión de papel',
+      'Música USB (cliente facilita equipo de sonido)',
+      '--- TIEMPOS DE SERVICIO ---',
+      'Decorador: 2 a 3 horas de montaje',
+      'Recreación: 4 horas de acompañamiento'
+    ]),
+    pack('img/combocrazy3.jpeg', 'Combo Crazy #3', [
+      '--- DECORACIÓN ---',
+      'Arco orgánico completo en globos (tonos a elección)',
+      '2 torres de globos',
+      '3 paneles con fondo temático (alquiler)',
+      '3 cilindros temáticos (alquiler)',
+      'Número con luces de 1m (alquiler)',
+      'Nombre en icopor del festejado',
+      'Happy Birthday LED',
+      'Escalera para sorpresas (alquiler)',
+      'Aplique en icopor de 1m y alfombra (alquiler)',
+      'Menaje x 30 und (vasos, bandejas, cubiertos)',
+      'Piñata tipo (fuente, estrella o vestido) con relleno y dulces',
+      '--- RECREACIÓN ---',
+      'Recreación dirigida (1 persona)',
+      'Logístico (1 persona)',
+      'Show de títeres',
+      'Show de payasitos o magia semiprofesional',
+      'Personaje animado',
+      'Taller de pintucaritas',
+      '2 luces audiorrítmicas y 30 pitos espanta-suegra',
+      'Lluvia de nieve y explosión de papel',
+      'Cabina de sonido de 12 pulgadas incluida',
+      '--- TIEMPOS DE SERVICIO ---',
+      'Decorador: 2 a 3 horas de montaje',
+      'Recreación: 4 horas de acompañamiento'
+    ])
+  ]
+},
 
   'recreacion-inflable': {
     title: 'Recreación e inflable',
     description: 'Combos de decoración y acompañamiento recreativo de cuatro horas para una celebración completa.',
     videos: [
-      'videos/matchempresarial.mp4'
+      'videos/vidinf.mp4'
     ],
-    items: [
-      pack('img/img12.jpeg', 'Combo Crazy #1', ['Arco, torres, cortinas, mantel, número, menaje, piñata y relleno mixto', 'Decorador de 2 a 3 horas y recreación de 4 horas']),
-      pack('img/img11.png', 'Combo Crazy #2', ['Fondo redondo, backing, cilindros, número luminoso, nombre, alfombra y menaje', 'Piñata, relleno y recreación de 4 horas']),
-      pack('img/img14.jpeg', 'Combo Crazy #3', ['Arco completo, paneles, cilindros, LED, aplique, menaje y piñata', 'Decorador de 2 a 3 horas y recreación de 4 horas']),
-      pack('img/img13.jpeg', 'Combo Crazy #4', ['3 paneles, cilindros, número, nombre, LED, escalera, aplique, menaje y piñata', 'Decorador de 2 a 3 horas y recreación de 4 horas'])
-    ]
+items: [
+  pack('img/inf1.jpeg', 'Paquete sencillo con infable', [
+    'Inflable interior o exterior con o sin logistico',
+    'Recreación dirigida (1 persona)',
+    '1 show central (títeres, payasos o magia semiprofesional)',
+    'Taller de pintucaritas',
+    'Globoflexia máx. 20 unidades'
+  ]),
+  pack('img/inf2.jpeg', 'Paquete convencional con infable', [
+    'Inflable interior o exterior con o sin logistico',
+    'Recreación dirigida (1 persona)',
+    'Show de títeres',
+    'Show de payasitos',
+    'Magia semiprofesional',
+    'Taller de pintucaritas',
+    'Globoflexia máx. 20 unidades'
+  ]),
+  pack('img/inf3.jpeg', 'Chiky rumba con infable', [
+    'Inflable interior o exterior con o sin logistico',
+    'Recreación dirigida (1 persona)',
+    '1 show central (baile hora loca - sin accesorios)',
+    'Taller de pintucaritas',
+    '2 luces audiorrítmicas',
+    'Globoflexia máx. 20 unidades',
+    'Cliente facilita el equipo de sonido'
+  ]),
+  pack('img/inf4.jpeg', 'Chiky TK Crazy con inflable', [
+    'Inflable interior o exterior',
+    'Recreación dirigida (1 persona)',
+    'Logístico (1 persona)',
+    '1 show central (títeres, payasos o magia semiprofesional)',
+    'Taller de pintucaritas',
+    '2 luces audiorrítmicas',
+    '30 pitos espanta-suegra',
+    'Lluvia de nieve',
+    'Explosión de papel',
+    'Cliente facilita el equipo de sonido'
+  ]),
+  pack('img/minitkj.jfif', 'Mini TK Crazy juvenil con inflable', [
+    'Inflable interior o exterior',
+    'Recreación dirigida (1 persona)',
+    'Logístico (1 persona)',
+    '1 show central de baile (45 minutos de baile dirigido)',
+    'Reto Tik Tok',
+    '2 luces audiorrítmicas',
+    '30 pitos espanta-suegra',
+    '30 manillas de neón',
+    '30 gafas de neón',
+    'Lluvia de nieve',
+    'Explosión de papel',
+    'Cámara de humo',
+    'Cliente facilita el equipo de sonido'
+  ]),
+  pack('img/inf5.jpeg', 'Fiesta Fusión con inflable', [
+    'Inflable interior o exterior',
+    'Recreación dirigida (1 persona)',
+    'Logístico (1 persona)',
+    'Show de títeres',
+    'Show de payasitos o magia semiprofesional',
+    'Personaje animado',
+    'Taller de pintucaritas',
+    '2 luces audiorrítmicas',
+    '30 pitos espanta-suegra',
+    'Lluvia de nieve',
+    'Explosión de papel',
+    'Cliente facilita el equipo de sonido'
+  ]),
+  pack('img/fiestafusion.jfif', 'Mega Party con inflable', [
+    'Inflable interior o exterior',
+    'Recreación dirigida (2 personas)',
+    'Logístico (1 persona)',
+    'Show de títeres',
+    'Show de payasitos',
+    'Personaje animado',
+    'Magia semiprofesional',
+    'Taller de pintucaritas',
+    '4 luces audiorrítmicas',
+    '30 pitos espanta-suegra',
+    'Lluvia de nieve',
+    'Explosión de papel',
+    'Sonido profesional'
+  ]),
+  pack('img/matchsencillo.jfif', 'Match sencillo con inflable', [
+    'Inflable interior o exterior',
+    'Recreación dirigida (1 persona)',
+    'Conos',
+    'Aros',
+    'Costales',
+    'Vasos locos',
+    'Salta la cuerda',
+    'Juegos, competencias y agilidad'
+  ]),
+  pack('img/match.jfif', 'Match con inflable', [
+    'Inflable interior o exterior',
+    'Recreación dirigida (1 persona)',
+    'Logística (1 persona)',
+    'Pista enjabonada',
+    'Bombazo',
+    'Encostalados',
+    'Escaleras',
+    'Obstáculo de conos',
+    'Demarcación'
+  ]),
+  pack('img/inf6.jpeg', 'Feria de pueblo con inflable', [
+     'Inflable interior o exterior',
+    'Recreación dirigida (1 persona)',
+    'Logístico (1 persona)',
+    'Rana',
+    'Twister',
+    'Minitejo',
+    'Demarcación',
+    'Tiro al blanco',
+    'Escalera gigante',
+    'Pruebas múltiples'
+  ]),
+  pack('img/matchcrazy.jfif', 'Match Crazy con inflable', [
+    'Inflable interior o exterior',
+    'Recreación dirigida (1 persona)',
+    'Logístico (1 persona)',
+    'Tiro al blanco frisby',
+    'Enchola aros',
+    'Futbolito',
+    'Jenga gigante',
+    'Golfito',
+    'Demarcación',
+    'Escalera'
+  ]),
+]
   },
 
   'decoracion-inflable': {
@@ -189,10 +510,85 @@ const serviceData = {
     videos: [
       'videos/videodecoinf.mp4'
     ],
-    items: [
-      pack('img/deconinf1.jfif', 'Combo Inflable & Decoración Básico', ['Arco orgánico de globos y fondo decorativo', '1 Inflable a elección por 4 horas con operario']),
-      pack('img/decoinf2.png', 'Combo Inflable & Decoración Premium', ['Decoración con paneles, cilindros y mesas temáticas', '1 Inflable grande o deslizador con operario'])
-    ]
+items: [
+  pack('img/deconinf1.jfif', 'Decoracion Crazy #1 con inflable', [
+    '--- ADICIONAL ---',
+    'Inflable de interior o exterior',
+    '--- DECORACIÓN ---',
+    'Arco orgánico en globos (cliente selecciona los tonos)',
+    'Dos torres en globos de 1 metro',
+    'Dos cortinas metalizadas',
+    'Mantel plástico',
+    'Número metalizado',
+    'Menaje x 30 und (vasos, bandejas, cubiertos)',
+    'Piñata tipo cuadrada',
+    'Relleno mixto',
+    '--- TIEMPOS ---',
+    'Decorador: 2 a 3 horas de montaje',
+    'Recreación: acompañamiento de 4 horas'
+  ]),
+  pack('img/decoinf2.png', 'Decoracion Crazy #2 con inflable', [
+    '--- ADICIONAL ---',
+    'Inflable de interior o exterior',
+    '--- DECORACIÓN ---',
+    'Arco orgánico en globos (cliente selecciona los tonos)',
+    'Dos torres en globos de 1 metro',
+    'Fondo redondo temático con backing (alquiler)',
+    '3 cilindros temáticos (alquiler)',
+    'Número con luces de 1 metro (alquiler)',
+    'Nombre en icopor del festejado',
+    'Alfombra (alquiler)',
+    'Menaje x 30 und (vasos, bandejas, cubiertos)',
+    'Piñata tipo (fuente, estrella, vestido)',
+    'Relleno seleccionado o dulces',
+    '--- TIEMPOS ---',
+    'Decorador: 2 a 3 horas de montaje',
+    'Recreación: acompañamiento de 4 horas'
+  ]),
+  pack('img/dec1.jpeg', 'Decoracion Crazy #3 con inflable', [
+    '--- ADICIONAL ---',
+    'Inflable de interior o exterior',
+    '--- DECORACIÓN ---',
+    'Arco orgánico completo en globos (cliente selecciona los tonos)',
+    'Dos torres en globos de 1 metro',
+    'Dos paneles con fondo temático (alquiler)',
+    '3 cilindros temáticos (alquiler)',
+    'Número con luces de 1 metro (alquiler)',
+    'Nombre en icopor del festejado',
+    'Happy Birthday LED',
+    'Aplique en icopor por 1 metro',
+    'Alfombra (alquiler)',
+    'Menaje x 30 und (vasos, bandejas, cubiertos)',
+    'Piñata tipo (fuente, estrella, vestido)',
+    'Relleno seleccionado',
+    'Relleno de dulces',
+    '--- TIEMPOS ---',
+    'Decorador: 2 a 3 horas de montaje',
+    'Recreación: acompañamiento de 4 horas'
+  ]),
+  pack('img/dec2.jpeg', 'Decoracion Crazy #4 con inflable', [
+    '--- ADICIONAL ---',
+    'Inflable de interior o exterior',
+    '--- DECORACIÓN ---',
+    'Arco orgánico completo en globos (cliente selecciona los tonos)',
+    'Dos torres en globos',
+    'Tres paneles con fondo temático (alquiler)',
+    '3 cilindros temáticos (alquiler)',
+    'Número con luces de 1 metro (alquiler)',
+    'Nombre en icopor del festejado',
+    'Happy Birthday LED',
+    'Escalera para sorpresas (alquiler)',
+    'Aplique en icopor por 1 metro',
+    'Alfombra (alquiler)',
+    'Menaje x 30 und (vasos, bandejas, cubiertos)',
+    'Piñata tipo (fuente, estrella, vestido)',
+    'Relleno seleccionado',
+    'Relleno de dulces',
+    '--- TIEMPOS ---',
+    'Decorador: 2 a 3 horas de montaje',
+    'Recreación: acompañamiento de 4 horas'
+  ])
+]
   },
 
   'baby-shower': {
@@ -201,12 +597,67 @@ const serviceData = {
     videos: [
       'videos/videobbshower.mp4'
     ],
-    items: [
-      pack('img/bbimg3.jpeg', 'Baby shower / revelación de género', ['Recreación dirigida, show de payasos y apertura de regalos', 'Vasos locos, cultura general, teteros, compotas, pañales y bebés']),
-      pack('img/bbimg2.jpeg', 'Baby shower #2', ['Recreador y logístico, show de payasos y apertura de regalos', 'Vasos locos, cascos, pimpones, competencias, pañales, bebés y metro']),
-      pack('img/bbimg1.jpeg', 'Revelación #1', ['Recreación, payasos, apertura de regalos, vasos locos y pimpones', 'Panza embombada, competencias, pañal gigante, árbol y bomba de género']),
-      pack('img/baby1.jpeg', 'Revelación #2', ['Recreador y logístico, payasos, cascos, pimpones y competencias', 'Panza embombada, pañal gigante, árbol y bomba de género'])
-    ]
+items: [
+  pack('img/bbimg3.jpeg', 'Baby shower / revelación de género', [
+    'Recreación dirigida (1 persona)',
+    'Show de payasos',
+    'Apertura de regalos',
+    'Vasos locos',
+    'Juegos de cultura general',
+    '2 teteros',
+    'Compotas',
+    '2 pañales pequeños',
+    '1 pañal gigante',
+    '2 bebés'
+  ]),
+  pack('img/bbimg2.jpeg', 'Baby shower #2', [
+    'Recreación dirigida (1 persona)',
+    'Logístico (1 persona)',
+    'Show de payasos',
+    'Apertura de regalos',
+    'Vasos locos',
+    'Juego de cascos',
+    'Pimpones',
+    'Juegos de cultura general',
+    '2 teteros',
+    'Competencia',
+    '2 pañales pequeños',
+    '1 pañal gigante',
+    '2 bebés',
+    '1 metro'
+  ]),
+  pack('img/bbimg1.jpeg', 'Revelación #1', [
+    'Recreación dirigida (1 persona)',
+    'Show de payasos',
+    'Apertura de regalos',
+    'Vasos locos',
+    'Pimpones',
+    'Juegos de cultura general',
+    'Pansa embombada',
+    'Competencias',
+    '1 pañal gigante',
+    'Árbol del género',
+    'Bomba de género',
+    '1 metro'
+  ]),
+  pack('img/baby1.jpeg', 'Revelación #2', [
+    'Recreación dirigida (1 persona)',
+    'Logístico (1 persona)',
+    'Show de payasos',
+    'Apertura de regalos',
+    'Vasos locos',
+    'Zapato a la mesa',
+    'Juego de cascos',
+    'Pimpones',
+    'Juegos de cultura general',
+    'Pansa embombada',
+    'Competencias',
+    '1 pañal gigante',
+    'Árbol del género',
+    'Bomba de género',
+    '1 metro'
+  ])
+]
   },
 
   'todo-incluido': {
@@ -215,12 +666,131 @@ const serviceData = {
     videos: [
       'videos/todoincluido.mp4'
     ],
-    items: [
-      pack('img/imgtodo1.jpeg', 'Combo Crazy #1', ['Decoración sencilla con arco, torres, menaje, piñata y relleno', 'Recreación con personaje, shows, pintucaritas y globoflexia', 'Inflable interior o exterior']),
-      pack('img/imgtodo2.jpeg', 'Combo Crazy #2', ['Decoración con backing, cilindros, número luminoso, nombre y menaje', 'Recreación con shows, personaje, luces, nieve, papel y sonido de 12 pulgadas', 'Inflable interior o exterior']),
-      pack('img/imgtodo3.jpeg', 'Combo Crazy #3', ['Decoración Jumbo y recreación con 2 personas, shows, luces y sonido profesional', '40 perros americanos, carrito con operario, 40 crispetas y máquina', 'Inflable interior o exterior']),
-      pack('img/imgtodo4.jpeg', 'Combo Crazy #4', ['Decoración Golden y recreación con sonido profesional', '40 perros, crispetas, gelatinas y algodones de azúcar con máquinas', 'Inflable interior o exterior'])
-    ]
+items: [
+  pack('img/imgtodo1.jpeg', 'Combo Crazy #1', [
+    '--- DECORACIÓN ---',
+    'Arco orgánico en globos (cliente selecciona los tonos)',
+    'Dos torres en globos de 1 metro',
+    'Dos cortinas metalizadas',
+    'Mantel plástico',
+    'Número metalizado',
+    'Menaje x 30 und (vasos, bandejas, cubiertos)',
+    'Piñata tipo cuadrada',
+    'Relleno mixto',
+    '--- RECREACIÓN ---',
+    'Recreación dirigida (1 persona)',
+    'Logístico (1 persona)',
+    'Personaje animado',
+    'Show de títeres',
+    'Show de payasitos',
+    'Magia semiprofesional',
+    'Taller de pintucaritas',
+    'Globoflexia máx. 20 unidades',
+    '--- ADICIONAL ---',
+    'Inflable de interior o exterior'
+  ]),
+  pack('img/imgtodo2.jpeg', 'Combo Crazy #2', [
+    '--- DECORACIÓN ---',
+    'Arco orgánico en globos (cliente selecciona los tonos)',
+    'Dos torres en globos de 1 metro',
+    'Fondo redondo temático con backing (alquiler)',
+    '3 cilindros temáticos (alquiler)',
+    'Número con luces de 1 metro (alquiler)',
+    'Nombre en icopor del festejado',
+    'Alfombra (alquiler)',
+    'Menaje x 30 und (vasos, bandejas, cubiertos)',
+    'Piñata tipo (fuente, estrella, vestido)',
+    'Relleno seleccionado o dulces',
+    '--- RECREACIÓN ---',
+    'Recreación dirigida (1 persona)',
+    'Logístico (1 persona)',
+    'Show de títeres',
+    'Show de payasitos o magia semiprofesional',
+    'Personaje animado',
+    'Taller de pintucaritas',
+    '2 luces audiorrítmicas',
+    '30 pitos espanta-suegra',
+    'Lluvia de nieve',
+    'Explosión de papel',
+    'Música USB',
+    'Sonido (12 pulgadas)',
+    '--- ADICIONAL ---',
+    'Inflable de interior o exterior'
+  ]),
+  pack('img/imgtodo3.jpeg', 'Combo Crazy #3', [
+    '--- DECORACIÓN ---',
+    'Arco orgánico completo en globos (cliente selecciona los tonos)',
+    'Dos torres en globos de 1 metro',
+    'Dos paneles con fondo temático (alquiler)',
+    '3 cilindros temáticos (alquiler)',
+    'Número con luces de 1 metro (alquiler)',
+    'Nombre en icopor del festejado',
+    'Happy Birthday LED',
+    'Aplique en icopor por 1 metro',
+    'Alfombra (alquiler)',
+    'Menaje x 30 und (vasos, bandejas, cubiertos)',
+    'Piñata tipo (fuente, estrella, vestido)',
+    'Relleno seleccionado',
+    'Relleno de dulces',
+    '--- RECREACIÓN ---',
+    'Recreación dirigida (2 personas)',
+    'Logístico (1 persona)',
+    'Show de títeres',
+    'Show de payasitos',
+    'Personaje animado',
+    'Magia semiprofesional',
+    'Taller de pintucaritas',
+    '4 luces audiorrítmicas',
+    '30 pitos espanta-suegra',
+    'Lluvia de nieve',
+    'Explosión de papel',
+    'Sonido profesional',
+    '--- MENÚ ---',
+    '40 perros americanos (pan Bimbo, queso, papa cabello de ángel, jugo Hit)',
+    'Carrito de perros + operario',
+    '40 crispetas con máquina',
+    '--- ADICIONAL ---',
+    'Inflable de interior o exterior'
+  ]),
+  pack('img/imgtodo4.jpeg', 'Combo Crazy #4', [
+    '--- DECORACIÓN ---',
+    'Arco orgánico completo en globos (cliente selecciona los tonos)',
+    'Dos torres en globos',
+    'Tres paneles con fondo temático (alquiler)',
+    '3 cilindros temáticos (alquiler)',
+    'Número con luces de 1 metro (alquiler)',
+    'Nombre en icopor del festejado',
+    'Happy Birthday LED',
+    'Escalera para sorpresas (alquiler)',
+    'Aplique en icopor por 1 metro',
+    'Alfombra (alquiler)',
+    'Menaje x 30 und (vasos, bandejas, cubiertos)',
+    'Piñata tipo (fuente, estrella, vestido)',
+    'Relleno seleccionado',
+    'Relleno de dulces',
+    '--- RECREACIÓN ---',
+    'Recreación dirigida (2 personas)',
+    'Logístico (1 persona)',
+    'Show de títeres',
+    'Show de payasitos',
+    'Personaje animado',
+    'Magia semiprofesional',
+    'Taller de pintucaritas',
+    '4 luces audiorrítmicas',
+    '30 pitos espanta-suegra',
+    'Lluvia de nieve',
+    'Explosión de papel',
+    'Sonido profesional',
+    '--- MENÚ ---',
+    '40 perros americanos (pan Bimbo, queso, papa cabello de ángel, jugo Hit)',
+    'Carrito de perros + operario',
+    '40 crispetas con máquina',
+    '40 gelatinas (vasos 5 oz)',
+    '40 algodones de azúcar + máquina',
+    '--- ADICIONAL ---',
+    'Inflable de interior o exterior'
+  ])
+]
   },
 
   sonido: {
@@ -249,9 +819,8 @@ const serviceData = {
     ],
     items: [
       pack('img/Menu.jpeg', 'Menú Infantil Completo', [
-        'Hamburguesa o Perro Caliente con papas a la francesa',
+        'Estaciones de comida (perros, hamburguesas, crispetas o fresas con chocolate)',
         'Gaseosa o jugo individual',
-        'Estaciones de comida (perros, hamburguesas, crispetas)',
         'Cumplimiento estricto de normas de higiene'
       ])
     ]
